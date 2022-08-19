@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="portugues-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decisão IFELSE</title>
+</head>
+<body>
+ <script lang="javascript">
+ 
+ /*Definição de Variáveis*/
+ var js_01
+ var js_02
+
+ /*Entrada de Dados*/
+ js_01 = parseInt(window.prompt('Informe o Valor do Primeiro Número' , '00'))
+ js_02 = parseInt(window.prompt('Informe o valor do Segundo Número' , '00'))
+ 
+ /*Saída de Dados*/
+ document.write('número 1 digitado =' + js_01)
+ document.write('<BR> número 2 digitado =' + js_02)
+
+ /*Saída de dados com classificação IF ELSE*/
+ if (js_01 < js_02){
+     document.write('<P><B>Classificação em Ordem Crescente: </B>' + js_01 + 'e' + js_02)
+ }
+ else { 
+     document.write('<P><B>Classificação em Ordem Crescente</B>' + js_02 + 'e' + js_01)    
+ }   
+ </script>   
+</body>
+</html>
